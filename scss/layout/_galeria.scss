@@ -1,0 +1,64 @@
+.html-4 {
+	height: 100%;
+	background-color:  rgba(34,34,34,1);
+}
+.page-4 {
+	min-height: 100%;
+	display: grid;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.container-grid {
+	>* {
+		padding: 5px;
+	}
+	display: grid;
+	gap: 5px;
+	text-align: center;
+	grid-template: "main" auto;
+}
+.main {
+	grid-area: main;
+	color:  rgba(34,34,34,1);
+}
+.main-grid {
+	display: grid;
+	text-align: center;
+	height: 100%;
+	gap: 10px;
+	grid-template: 
+    "main-grid-1 main-grid-1" 55px 
+    "main-grid-2 main-grid-3" 550px 
+    "main-grid-2 main-grid-4" 550px 
+}
+.main-grid-1 {
+	grid-area: main-grid-1;
+	.main-grid-titulo {
+		margin-top: 10px;
+		font-size: 50px;
+	}
+}
+.main-grid-2 {
+	grid-area: main-grid-2;
+	background-image: url(../assets/images/galeria-italia.jpg);
+	background-size: cover;
+	border-radius: 10px;
+}
+.main-grid-3 {
+	grid-area: main-grid-3;
+	background-image: url(../assets/images/galeria-japon.jpg);
+	background-size: cover;
+	border-radius: 10px;
+}
+.main-grid-4 {
+	grid-area: main-grid-4;
+	background-image: url(../assets/images/galeria-suiza.jpg);
+	background-size: cover;
+	border-radius: 10px;
+}
+.main-grid-titulo {
+	color: $color-texto-secundario;
+	margin-top: 10px;
+	font-family: $tipografia-titulos;
+	font-size: 30px;
+}

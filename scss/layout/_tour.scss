@@ -1,0 +1,41 @@
+.container-tour {
+	max-width: 1200px;
+	margin: 0 auto;
+    padding-bottom: 20px;
+	h2 {
+		text-align: center;
+		margin: 20px;
+		font-family: $tipografia-titulos;
+		color: $color-texto-secundario;
+		font-size: 40px;
+	}
+	p {
+		color: $color-texto-principal;
+		font-family: $tipografia-textos;
+	}
+}
+.tour {
+	display: flex;
+	text-align: center;
+	margin-top: 20px;
+	justify-content: space-between;
+	img {
+		max-width: 45%;
+		border-radius: 10px;
+	}
+}
+.tour-1 {
+	max-width: 50%;
+    background-color: rgba(24,24,24,1);
+    border-radius: 20px;
+}
+.tour-2 {
+	max-width: 50%;
+    background-color: rgba(24,24,24,1);
+    border-radius: 20px;
+}
+.tour-3 {
+	max-width: 50%;
+    background-color: rgba(24,24,24,1);
+    border-radius: 20px;
+}

@@ -1,0 +1,35 @@
+.footer-inicio {
+	background-color: rgba(24,24,24,1);
+	padding: 40px 0 30px 0;
+	margin: auto;
+	overflow: hidden;
+}
+.contenedor-footer {
+	display: flex;
+	width: 90%;
+	justify-content: space-evenly;
+	margin: auto;
+	padding-bottom: 20px;
+	border-bottom: 1px solid orange;
+}
+.content-foo {
+	text-align: center;
+	h4 {
+		color: $color-texto-principal;
+		border-bottom: 3px solid orange;
+		padding-bottom: 5px;
+		margin-bottom: 10px;
+		font-family: $tipografia-textos;
+	}
+	p {
+		color: $color-texto-principal;
+		font-family: $tipografia-textos;
+	}
+}
+.titulo-final {
+	text-align: center;
+	font-size: 34px;
+	margin: 20px 0 0 0;
+	color: $color-texto-principal;
+	font-family: $tipografia-textos;
+}

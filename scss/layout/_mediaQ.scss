@@ -1,0 +1,24 @@
+@media (max-width: 600px) {
+	.container-header {
+		display: flex;
+		flex-direction: column;
+	}
+	.container-cover {
+		h1 {
+			font-size: 70px;
+		}
+		h2 {
+			font-size: 40px;
+		}
+		p {
+			font-size: 25px;
+		}
+	}
+    .main-grid{
+        grid-template: 
+    "main-grid-1" 55px 
+    "main-grid-2" 300px 
+    "main-grid-3" 300px
+    "main-grid-4" 300px 
+    } 
+}
