@@ -243,6 +243,13 @@ html {
   .card:hover .back {
     transform: perspective(600px) rotateY(360deg); }
 
+.page-3 {
+  margin: 0 auto;
+  background: linear-gradient(360deg, #222222 7%, rgba(34, 34, 34, 0.8) 13%, rgba(34, 34, 34, 0.05) 23%), url(../assets/images/img-back-tour.jpg);
+  background-size: cover;
+  height: 100%;
+  background-repeat: no-repeat; }
+
 .container-tour {
   max-width: 1200px;
   margin: 0 auto;
@@ -268,17 +275,17 @@ html {
 
 .tour-1 {
   max-width: 50%;
-  background-color: #181818;
+  background-color: rgba(24, 24, 24, 0.3);
   border-radius: 20px; }
 
 .tour-2 {
   max-width: 50%;
-  background-color: #181818;
+  background-color: rgba(24, 24, 24, 0.3);
   border-radius: 20px; }
 
 .tour-3 {
   max-width: 50%;
-  background-color: #181818;
+  background-color: rgba(24, 24, 24, 0.3);
   border-radius: 20px; }
 
 .html-4 {
@@ -286,16 +293,18 @@ html {
   background-color: #222222; }
 
 .page-4 {
-  min-height: 100%;
-  display: grid;
-  max-width: 1200px;
-  margin: 0 auto; }
+  background: linear-gradient(360deg, #222222 7%, rgba(34, 34, 34, 0.8) 13%, rgba(34, 34, 34, 0.05) 23%), url(../assets/images/img-back-4.jpg);
+  background-size: cover;
+  height: 100%;
+  background-repeat: no-repeat; }
 
 .container-grid {
   display: grid;
   gap: 5px;
   text-align: center;
-  grid-template: "main" auto; }
+  grid-template: "main" auto;
+  max-width: 1200px;
+  margin: 0 auto; }
   .container-grid > * {
     padding: 5px; }
 
@@ -340,6 +349,13 @@ html {
   font-family: "Sofia Sans Condensed", sans-serif;
   font-size: 30px; }
 
+.page-5 {
+  margin: 0 auto;
+  background: linear-gradient(360deg, #222222 7%, rgba(34, 34, 34, 0.8) 13%, rgba(34, 34, 34, 0.05) 23%), url(../assets/images/img-back-contacto.jpg);
+  background-size: cover;
+  height: 105vh;
+  background-repeat: no-repeat; }
+
 .form-register {
   width: 450px;
   background: #181818;
@@ -356,9 +372,9 @@ html {
     margin-bottom: 25px;
     color: orange; }
   .form-register p {
-    height: 40px;
+    height: 30px;
     text-align: center;
-    line-height: 40px; }
+    line-height: 20px; }
   .form-register a {
     color: white;
     text-decoration: none; }
@@ -381,7 +397,7 @@ html {
   border: 1px solid orange;
   font-size: 16px; }
 
-@media (max-width: 600px) {
+@media (max-width: 720px) {
   .container-header {
     display: flex;
     flex-direction: column; }
@@ -392,4 +408,20 @@ html {
   .container-cover p {
     font-size: 25px; }
   .main-grid {
-    grid-template: "main-grid-1" 55px  "main-grid-2" 300px  "main-grid-3" 300px "main-grid-4" 300px; } }
+    grid-template: "main-grid-1" 55px  "main-grid-2" 300px  "main-grid-3" 300px "main-grid-4" 300px; }
+  .tour {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px; }
+    .tour img {
+      max-width: 70%; }
+  .tour-1 {
+    max-width: 70%; }
+  .tour-2 {
+    max-width: 70%; }
+  .tour-3 {
+    max-width: 70%; }
+  .form-register {
+    width: 330px; } }

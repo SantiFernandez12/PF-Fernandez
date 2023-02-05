@@ -1,3 +1,11 @@
+.page-5{
+    margin: 0 auto;
+    background: linear-gradient(360deg, rgba(34,34,34,1) 7%, rgba(34,34,34,0.8) 13%, rgba(34,34,34,0.05) 23%),
+    url(../assets/images/img-back-contacto.jpg); 
+    background-size: cover;
+    height: 105vh;
+    background-repeat: no-repeat;
+}
 .form-register {
 	width: 450px;
 	background: rgba(24,24,24,1);
@@ -15,9 +23,9 @@
 		color: $color-texto-secundario;
 	}
 	p {
-		height: 40px;
+		height: 30px;
 		text-align: center;
-		line-height: 40px;
+		line-height: 20px;
 	}
 	a {
 		color: $color-texto-principal;

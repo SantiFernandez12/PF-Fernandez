@@ -3,10 +3,11 @@
 	background-color:  rgba(34,34,34,1);
 }
 .page-4 {
-	min-height: 100%;
-	display: grid;
-	max-width: 1200px;
-	margin: 0 auto;
+    background: linear-gradient(360deg, rgba(34,34,34,1) 7%, rgba(34,34,34,0.8) 13%, rgba(34,34,34,0.05) 23%),
+    url(../assets/images/img-back-4.jpg); 
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
 }
 .container-grid {
 	>* {
@@ -16,6 +17,8 @@
 	gap: 5px;
 	text-align: center;
 	grid-template: "main" auto;
+	max-width: 1200px;
+	margin: 0 auto;
 }
 .main {
 	grid-area: main;
